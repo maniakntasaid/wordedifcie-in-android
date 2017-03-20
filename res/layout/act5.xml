@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_x="24dp"
+     android:background="@drawable/as"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_y="79dp" >
+
+<AbsoluteLayout
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+<ImageView
+	android:id="@+id/background5"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+	android:layout_x="0dp"
+	android:layout_y="0dp"
+	android:contentDescription="@string/imgtext" />
+<ImageView
+	android:id="@+id/home5"
+	android:layout_width="50dp"
+	android:layout_height="50dp"
+	android:src="@drawable/home"
+	android:layout_x="9dp"
+	android:layout_y="2dp"
+	
+	android:contentDescription="@string/imgtext" />
+
+<Button
+    android:id="@+id/record5"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_x="211dp"
+    android:layout_y="350dp"
+    android:text="Last!!"
+    android:textColor="@color/black"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="95dp"
+    android:layout_height="wrap_content"
+    android:layout_x="21dp"
+    android:layout_y="350dp"
+    android:text="First!!" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="251dp"
+    android:layout_y="6dp"
+    android:src="@drawable/exit" />
+
+<ImageView
+    android:id="@+id/mike5"
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:layout_x="134dp"
+    android:layout_y="151dp"
+    android:contentDescription="@string/imgtext"
+    android:src="@drawable/mike_on" />
+
+<TextView
+    android:id="@+id/text5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="10dp"
+    android:layout_y="62dp"
+    android:gravity="center"
+    android:text="Speak Word"
+    android:textColor="@color/black"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/scorevalue4"
+    android:layout_width="188dp"
+    android:layout_height="wrap_content"
+    android:layout_x="66dp"
+    android:layout_y="275dp"
+    android:ems="10" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="232dp"
+    android:layout_y="93dp"
+    android:text="Meaning" />
+
+<EditText
+    android:id="@+id/scorevalue5"
+    android:layout_width="187dp"
+    android:layout_height="wrap_content"
+    android:layout_x="47dp"
+    android:layout_y="94dp"
+    android:clickable="true"
+    android:cursorVisible="false"
+    android:ems="10"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+</AbsoluteLayout>
+  
+</ScrollView>

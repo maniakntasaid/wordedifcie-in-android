@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WordedificeActivity!</string>
+    <string name="app_name">Wordedifice</string>
+    <string name="imgtext">imagehere</string>
+    <string name="SCORE">SCORE :</string>
+    <string name="RERECORD">RE-RECORD</string>
+    <string name="cancel">CANCEL</string>
+    <color name="black">#000</color>
+    <string name="RECORD">o RECORD</string>
+    <string name="STOP">STOP</string>
+    <string name="PLAY">PLAY</string>
+    <string name="CONTINUE">CONTINUE</string>
+    <string name="LEARNMORE">LEARN MORE</string>
+    <string name="EXITGAME">EXIT GAME</string>
+    <string name="FINALSCORE">FINAL SCORE</string>
+    <string name="HIGHSCORES">HIGH SCORES</string>
+    <string name="INSTRUCTIONS">INSTRUCTIONS</string>
+    <string name="mongo">mongoActivity</string>
+    <string name="fourth">fourthactivity</string>
+    <string name="fifth">fifthactivity</string>
+    <string name="sixth">sixthactivity</string>
+    <string name="seventh">seventhactivity</string>
+    <string name="eight">eightactivity</string>
+    <string name="ninth">ninthActivity</string>
+    <string name="eleven">eleventhactivity</string>
+    <string name="fav">favactivity</string>
+    <string name="finalact">finalactivity</string>
+    <string name="highact">highactivity</string>
+    <string name="instr">1. User should give a valid string. 
+        </string>
+    <string name="learn">learnact</string>
+
+</resources>

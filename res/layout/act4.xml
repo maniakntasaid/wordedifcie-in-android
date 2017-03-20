@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:background="@drawable/sss"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+	android:id="@+id/background4"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	
+	android:layout_x="0dp"
+	android:layout_y="0dp"
+	android:contentDescription="@string/imgtext" />
+<ImageView
+	android:id="@+id/home4"
+	android:layout_width="50dp"
+	android:layout_height="50dp"
+	android:src="@drawable/home"
+	android:layout_x="9dp"
+	android:layout_y="2dp" 
+	
+	android:contentDescription="@string/imgtext"/>
+<TextView
+	android:id="@+id/text4"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Tap mike to start the game"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:textColor="@color/black"
+	android:gravity="center"
+	android:layout_x="34dp"
+	android:layout_y="83dp" />
+<EditText
+	android:id="@+id/scorevalue4"
+	android:layout_width="120dp"
+	android:layout_height="wrap_content"
+	android:textSize="24sp"
+	android:visibility="invisible"
+	android:textStyle="bold"
+	android:gravity="left"
+	android:layout_x="142dp"
+	android:layout_y="82dp" />
+<ImageView
+	android:id="@+id/mike4"
+	android:layout_width="110dp"
+	android:layout_height="110dp"
+	android:src="@drawable/diabled_mike"
+	android:layout_x="105dp"
+	android:layout_y="168dp"
+
+	android:contentDescription="@string/imgtext" />
+
+</AbsoluteLayout>

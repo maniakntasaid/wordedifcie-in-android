@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@drawable/sss"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_x="27dp"
+    android:layout_y="42dp" >
+
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+<ImageView
+    android:id="@+id/instructions1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_x="265dp"
+    android:layout_y="425dp"
+    android:contentDescription="@string/imgtext"
+    android:src="@drawable/question_mark" />
+
+<ImageView
+    android:id="@+id/background1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_x="-3dp"
+    android:layout_y="4dp"
+    android:contentDescription="@string/imgtext" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="9dp"
+    android:layout_y="11dp"
+    android:text="!!!WORD EDIFICE!!!"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textColor="#aaff00"
+    android:textSize="30sp"
+    android:textStyle="bold|italic" />
+
+<ImageView
+    android:id="@+id/playicon"
+    android:layout_width="118dp"
+    android:layout_height="104dp"
+    android:layout_x="86dp"
+    android:layout_y="163dp"
+    android:contentDescription="@string/imgtext"
+    android:src="@drawable/siva3" />
+
+<ImageView
+    android:id="@+id/exit1"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_x="279dp"
+    android:layout_y="2dp"
+    android:contentDescription="@string/imgtext"
+    android:src="@drawable/exit" />
+
+</AbsoluteLayout>
+    
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
